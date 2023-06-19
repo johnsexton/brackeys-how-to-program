@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "brackeys-how-to-program/1.0.0": {
+        "runtime": {
+          "brackeys-how-to-program.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "brackeys-how-to-program/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
