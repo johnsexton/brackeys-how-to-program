@@ -90,6 +90,7 @@ internal class Program
         */
 
         // Episode 3 Challenge
+        /*
         int answer01;
         int answer02;
         int answer03;
@@ -126,6 +127,47 @@ internal class Program
         } else {
             Console.Write("Wrong.\n");
         }
+        */
+
+        // Episode 4 Activity (for loop)
+        /*
+        Console.Write("How many numbers do you want? ");
+        int count = Convert.ToInt32( Console.ReadLine() );
+        for ( int i = 1; i <= count; i++ ) {
+            double result = Math.Pow(2, i);
+            Console.WriteLine( result );
+        }
+        */
+
+        // Episode 4 Activity (while loop)
+        /*
+        Random numberGen = new Random();
+        int roll = 0;
+        int attempt = 0;
+        Console.Write("Press any key to roll the die.\n");
+        while ( roll != 6 ) {
+            Console.ReadKey();
+            roll = numberGen.Next(1,7); // assigns a number between 1-6 (7 is excluded)
+            Console.Write("You rolled a: " + roll + "\n");
+            attempt++;
+        }
+        Console.Write("That took " + attempt + " attempts to roll a 6.");
+        */
+
+        // Episode 4 Challenge
+        Random numberGen = new Random();
+        int die1 = 0;
+        int die2 = 1;
+        int attempt = 0;
+        Console.Write("Press any key to roll the dice.\n");
+        while ( die1 != die2 ) {
+            Console.ReadKey();
+            die1 = numberGen.Next(1,7); // assigns a number between 1-6 (7 is excluded)
+            die2 = numberGen.Next(1,7); // assigns a number between 1-6 (7 is excluded)
+            Console.Write("You rolled a " + die1 + " and a " + die2 +".\n");
+            attempt++;
+        }
+        Console.Write("That took " + attempt + " attempts to roll a pair.");
 
         // Quit
         Console.ReadKey();
