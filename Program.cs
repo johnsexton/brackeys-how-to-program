@@ -1,4 +1,5 @@
-﻿
+﻿using System.Collections.Generic;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -155,6 +156,7 @@ internal class Program
         */
 
         // Episode 4 Challenge
+        /*
         Random numberGen = new Random();
         int die1 = 0;
         int die2 = 1;
@@ -168,6 +170,57 @@ internal class Program
             attempt++;
         }
         Console.Write("That took " + attempt + " attempts to roll a pair.");
+        */
+
+        // Episode 5 Activity (Array)
+        /*
+        string[] movies = new string[4];
+
+        Console.WriteLine("Type in four movies: ");
+
+        for (int i = 0; i <  movies.Length; i++ ) {
+            movies[i] = Console.ReadLine();
+        }
+
+        Console.WriteLine("Here they are alphabetically: ");
+        Array.Sort(movies);
+
+        for (int i = 0; i <  movies.Length; i++ ) {
+            Console.WriteLine(movies[i]);
+        }
+        */
+
+        // Episode 5 Activity (List)
+        /*
+        List<string> shoppingList = new List<string>();
+        shoppingList.Add("Dreams");
+        shoppingList.Add("Miracles");
+        shoppingList.Add("Rainbows");
+        shoppingList.Add("Pony");
+        for (int i = 0; i < shoppingList.Count; i++) {
+            Console.WriteLine(shoppingList[i]);
+        }
+        shoppingList.Remove("Dreams");
+        shoppingList.RemoveAt(1);
+        Console.WriteLine("----------");
+        for (int i = 0; i < shoppingList.Count; i++) {
+            Console.WriteLine(shoppingList[i]);
+        }
+        */
+
+        // Episode 5 Challenge
+        Console.WriteLine("How many students are in your class: ");
+        int count = Convert.ToInt32( Console.ReadLine() );
+        Console.WriteLine("Please enter their names: ");
+        string[] students = new string[count];
+        for (int i = 0; i < students.Length; i++ ) {
+            students[i] = Console.ReadLine();
+        }
+        Console.WriteLine("Here they are alphabetically: ");
+        Array.Sort(students);
+        for (int i = 0; i <  students.Length; i++ ) {
+            Console.WriteLine(students[i]);
+        }
 
         // Quit
         Console.ReadKey();
