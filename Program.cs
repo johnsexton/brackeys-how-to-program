@@ -209,6 +209,7 @@ internal class Program
         */
 
         // Episode 5 Challenge
+        /*
         Console.WriteLine("How many students are in your class: ");
         int count = Convert.ToInt32( Console.ReadLine() );
         Console.WriteLine("Please enter their names: ");
@@ -221,8 +222,22 @@ internal class Program
         for (int i = 0; i <  students.Length; i++ ) {
             Console.WriteLine(students[i]);
         }
+        */
+
+        // Episode 6 Activity
+        PrintNumber();
+        PrintNumber();
+        PrintNumber();
 
         // Quit
         Console.ReadKey();
     }
+
+    void PrintNumber()
+    {
+        Random numGen = new Random();
+        int number = numGen.Next(0, 10);
+        Console.WriteLine(number);
+    }
+
 }

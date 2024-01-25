@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\johnsexton\\.nuget\\packages\\": {}
+    "/Users/johnsexton/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\mac\\Home\\Documents\\GitHub\\brackeys-how-to-program\\brackeys-how-to-program.csproj",
+      "projectUniqueName": "/Users/johnsexton/Documents/GitHub/brackeys-how-to-program/brackeys-how-to-program.csproj",
       "projectName": "brackeys-how-to-program",
-      "projectPath": "\\\\mac\\Home\\Documents\\GitHub\\brackeys-how-to-program\\brackeys-how-to-program.csproj",
-      "packagesPath": "C:\\Users\\johnsexton\\.nuget\\packages\\",
-      "outputPath": "\\\\mac\\Home\\Documents\\GitHub\\brackeys-how-to-program\\obj\\",
+      "projectPath": "/Users/johnsexton/Documents/GitHub/brackeys-how-to-program/brackeys-how-to-program.csproj",
+      "packagesPath": "/Users/johnsexton/.nuget/packages/",
+      "outputPath": "/Users/johnsexton/Documents/GitHub/brackeys-how-to-program/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\johnsexton\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/johnsexton/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/7.0.304/RuntimeIdentifierGraph.json"
       }
     }
   }
